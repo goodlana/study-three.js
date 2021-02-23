@@ -81,7 +81,7 @@ function App() {
         {/* TetrahedronGeometry 사면체 */}
         <TetrahedronGeometry position={[-1, -1, -3]} />
         {/* TextGeometry 3d 폰트와 문자열로 만든 3d 텍스트*/}
-        <TextGeometry />
+        {/* <TextGeometry /> */}
         {/* TorusGeometry 원환체, 도넛 */}
         <TorusGeometry position={[1, -1, -3]} />
         {/* TorusKnotGeometry 원환체 매듭*/}
