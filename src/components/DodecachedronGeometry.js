@@ -1,7 +1,12 @@
 import React from 'react';
 
-function DodecachedronGeometry() {
-  return <div></div>;
-}
+const DodecahedronGeometry = (props) => {
+  return (
+    <mesh {...props}>
+      <dodecahedronGeometry args={[0.7, 0]} />
+      <meshStandardMaterial color="skyblue" transparent />
+    </mesh>
+  );
+};
 
-export default DodecachedronGeometry;
+export default DodecahedronGeometry;

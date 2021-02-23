@@ -1,7 +1,12 @@
 import React from 'react';
 
-function EdgesGeometry() {
-  return <div></div>;
-}
+const EdgesGeometry = (props) => {
+  return (
+    <mesh {...props}>
+      <edgesGeometry args={[0.7, 0.7, 1.5, 12]} />
+      <meshStandardMaterial color="lightgreen" transparent />
+    </mesh>
+  );
+};
 
 export default EdgesGeometry;
